@@ -1,0 +1,36 @@
+main, footer {
+    padding-left: 240px;
+  }
+
+aside {
+    width : 240px;
+}
+
+ul.side-nav.left-side-bar {
+    top: 64px;
+    left:0px;
+}
+
+  @media only screen and (max-width : 992px) {
+    main, footer {
+      padding-left: 0px;
+    }
+      
+    ul.side-nav.left-side-bar {
+        top: 64px;
+        left:-240px;
+    }
+      
+    
+  }
+
+
+nav-bar-adjust-nav {
+    left:0px;
+}
+
+
+
+nav-bar-adjust-rest {
+    
+}
